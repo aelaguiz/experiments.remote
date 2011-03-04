@@ -4,7 +4,7 @@
  */
 
 var express = require('express'),
-	CircleServer = require('./servers').CircleServer;
+	DemoServer = require('./servers').DemoServer;
 
 var app = module.exports = express.createServer();
 
@@ -45,7 +45,15 @@ app.get('/remoteCircles', function(req, res){
   });
 });
 
-var circleServer = new CircleServer(app);
+app.get('/remotePhysics', function(req, res){
+  res.render('remotePhysics', {
+    locals: {
+      title: 'Remote Physics'
+    }
+  });
+});
+
+var demoServer = new DemoServer(app);
 
 
 // Only listen on $ node app.js

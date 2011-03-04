@@ -4,3 +4,6 @@
 [submodule "lib/jKey"]
 	path = lib/jKey
 	url = https://github.com/OscarGodson/jKey.git
+[submodule "lib/box2dnode"]
+	path = lib/box2dnode
+	url = https://github.com/jadell/box2dnode.git

@@ -1,3 +1,3 @@
 module.exports = {
-	CircleServer: require("./circleServer.js", true).CircleServer
+	DemoServer: require("./demoServer.js", true).DemoServer
 }
