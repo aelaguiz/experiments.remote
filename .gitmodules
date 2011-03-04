@@ -1,0 +1,6 @@
+[submodule "lib/message.socket.io"]
+	path = lib/message.socket.io
+	url = git@github.com:aelaguiz/message.socket.io.git
+[submodule "lib/jKey"]
+	path = lib/jKey
+	url = https://github.com/OscarGodson/jKey.git
